@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width, intial-scale=1.0">
+        <title>International Math Network</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <div class="hero">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="sponsors.html">SPONSORS</a></li>
+            </ul>
+            </div>            
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="info">
+                <h1>International Math <br> Network</h1>    
+                <p>
+                    Hosting math competitions to challege students <br> the globe in a week where math will be their main focus 
+                </p>
+                <a href="signup.html">Register For 2022 Competition</a> 
+            </div>
+            <div class="img-box">
+                <img src="Images/banner.png"> 
+            </div>
+       </div>
+
+       <!---------JavaScript for Toggle Menu-------------->
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+       </script>
+
+
+       <!-----Participant Grade Level------>
+       <section class="pGrade">
+            <h1>Participants' Grade Level</h1>
+            <p>As of right now, a fellow participant must be entering one of the grade levels mentioned below to participate in the competition. As a warning, the same exact administered test will be given to both six and seventh graders.</p> 
+            <div class="row">
+                <div class="gradenum">
+                    <h3>5th Grade</h3>
+                </div>
+                <div class="gradenum">
+                    <h3>6th Grade</h3>
+                </div>
+                <div class="gradenum">
+                    <h3>7th Grade</h3>
+                </div>
+            </div>
+       </section>
+    
+
+        <!-----More Info------>
+        <section class="mInfo">
+            <h1>More Information on the Competition</h1>
+            <p>If you are interested in participating in the competition, please sign up before our last registration day on <span class="bolded">July 22th</span>. The competition will be held over three days from <span class="bolded">August 1st</span> to <span class="bolded">August 3rd</span>. Once registered, please look out for more information via email. Participants must place their best foot forward as they will be given a chance to win  up to 500 dollars once our competition begins. 
+            </p> 
+       </section>
+
+       <!----Footer----->
+       <section class="footer">
+            <h4>Contact Us</h4> 
+            <div class="icons">
+                <a href="https://instagram.com/internationalmathnetwork_?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                <a href="mailto:internationalmathnetwork@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/international-math-network-a4a00a245/"><i class="fa fa-linkedin"></i></a>
+            </div>
+       </section>
+    </body> 
+</html> 

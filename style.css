@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+.bolded { font-weight: bold; }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(64, 61, 54);
+    position: relative;
+    overflow-y:scroll;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: rgb(64, 61, 54);
+    font-family: sans-serif;
+    position: relative;
+}
+nav{
+    padding: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 8px 12px; 
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   
+}
+nav ul li a:hover{
+    color:  #D5A021;
+}
+.info{
+    margin: 8%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size: 65px;
+    color: #f7bf4f;
+}
+.info p{
+    color: white;
+    font-size: 25px
+}
+.info a{
+   text-decoration: none;
+   border-radius: 27px;
+    background: #f7bf4f;
+    padding: 10px 18px;
+    color: white;
+    display: inline-block;
+    margin: 20px -2px;
+}
+.info a:hover{
+    border-color: #D5A021;
+    transition: .5s;
+}
+.img-box {
+    width: 45%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+nav .fa{
+    display: none;
+}
+
+
+/*-------pGrade--------*/
+
+.pGrade{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.gradenum{
+    flex-basis: 31%;
+    background: #D5A021;
+    border-radius: 65px;
+    margin-bottom: 5%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.gradenum:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.4);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .pGrade{
+        padding-top: .001px;
+    }
+}
+/*-------mInfo--------*/
+.mInfo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #D5A021;
+}
+p{
+    font-size: 22px;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .mInfo{
+        padding-top: .001px;
+    }
+}
+
+/*-------Footer--------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    padding-top: 180px;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 20px;
+    border-radius: 50%;
+    height: 20px;
+  }
+  .fa-linkedin {
+    background: #D5A021;
+    color: white;
+  }
+  .fa-instagram {
+    background: #D5A021;
+    color: white;
+  }
+  
+  .fa-envelope {
+    background: #D5A021;
+    color: white;
+    size: 100px;
+  }
+  .fa-envelope:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.4);
+}
+.fa-instagram:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.4);
+}
+.fa-linkedin:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.4);
+}

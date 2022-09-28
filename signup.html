@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width, intial-scale=1.0">
+        <title>Sign Up - International Math Network</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="sponsors.html">SPONSORS</a></li>
+            </ul>
+            </div>            
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+       </div>
+        <div class="center">
+            <h1>Register</h1>
+            <form method="post" id="frmsubmit"
+            method="POST"   
+            action="https://script.google.com/macros/s/AKfycbysiW1T8gM9rrapX6WWnNOS38o5L6LDh4PdBU02gm0ARSZXu9IpJ5W98qpwb8rEC6pIqQ/exec"
+            >
+            <div class="txt_field">
+                <input type="text" name="Parent Name" required>
+                <span></span>
+                <label>Parent Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="Parent Email" required>
+                <span></span>
+                <label>Parent Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="Child's Name" required>
+                <span></span>
+                <label>Child's Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="Child's Grade" required>
+                <span></span>
+                <label>Child's Grade (5th Or 6th/7th)</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="Child's School" required>
+                <span></span>
+                <label>Child's School</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="Country" required>
+                <span></span>
+                <label>Country</label>
+            </div>
+            <input type="submit" value="Sign Up">
+            </form>
+
+        </div>
+
+       <!---------JavaScript for Toggle Menu-------------->
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+   </script>
+
+    </body> 
+</html> 
+
+

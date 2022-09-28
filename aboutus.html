@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width, intial-scale=1.0">
+        <title>About Us - International Math Network</title>
+        <link rel="stylesheet" href="aboutus.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+            <div class="hero">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="sponsors.html">SPONSORS</a></li>
+                </ul>
+                </div>            
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+           </div>
+        
+        <section>    
+        <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Images/arnav.png" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Arnav Sehgal</h4>
+                            <h5>Co-Founder</h5>
+                        </div>
+                        <div class="sci">
+                            <a href="mailto:arnavseh@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com/arnavsehgal1?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <section> 
+                <div class="card1">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Images/dhruv.png" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Dhruv Dodda</h4>
+                            <h5>Co-Founder</h5>
+                        </div>
+                        <div class="sci">
+                            <a href="mailto:megadhruv07@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com/dhruvd_0927?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </section>    
+             <!---------JavaScript for Toggle Menu-------------->
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        </script> 
+
+    </body> 
+</html> 
